@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#98c77e" stroke-opacity=".12"/>
+    </pattern>
+    <radialGradient id="glow">
+      <stop stop-color="#324b28"/>
+      <stop offset="1" stop-color="#151a14"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="#151a14"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <rect width="1200" height="900" fill="url(#grid)"/>
+  <circle cx="600" cy="450" r="205" fill="#9bdf62" fill-opacity=".12" filter="url(#soft)"/>
+  <g fill="none" stroke="#c0ff72" stroke-linecap="round">
+    <path d="M385 450c0-145 280-145 280 0s-280 145-280 0Z" stroke-width="8" opacity=".8"/>
+    <path d="M465 310c145 0 145 280 0 280s-145-280 0-280Z" stroke-width="8" opacity=".65"/>
+    <path d="M505 330c110 65 110 175 0 240s-110-175 0-240Z" stroke-width="8" opacity=".9"/>
+  </g>
+  <g fill="#c0ff72">
+    <path d="M120 110h22l29 56-13 22z"/>
+    <path d="M157 110h22l14 27-13 22z"/>
+    <path d="M194 110h29l-15 38-13-24z"/>
+  </g>
+  <text x="242" y="153" fill="#f5f6ef" font-family="Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="-1">vector</text>
+  <text x="350" y="153" fill="#b8c0b3" font-family="Arial, sans-serif" font-size="32">academy</text>
+</svg>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Notes from Vector Academy on building, evaluating, and deploying AI systems.">
+  <title>Blog | Vector Academy</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../demo.css"></head>
+<body>
+<aside class="portfolio-bar" aria-label="Portfolio demo navigation"><a href="../index.html#work">&larr; All projects</a><span class="portfolio-label">VECTOR ACADEMY / WEBSITE DEMO</span><a class="portfolio-enquiry" href="../index.html#contact">Discuss a similar website &nearr;</a></aside>
+
+<header><div class="wrap bar">
+  <a class="brand" href="index.html#top" aria-label="Vector Academy home"><svg class="logo" viewBox="0 0 42 38" aria-hidden="true"><path d="M1 4h9l12 23-5 9zm14 0h9l5 10-5 9zm14 0h12L31 20l-5-9z"/></svg> vector<span>academy</span></a>
+  <nav aria-label="Main navigation"><a href="about.html">About</a><a href="services.html">Services</a><a href="blog.html" aria-current="page">Blog</a><a href="index.html#programs">Programs</a></nav>
+  <a class="small-cta" href="index.html#programs">Find a program <span>&nearr;</span></a>
+</div></header>
+<main id="top">
+  <section class="wrap page-hero">
+    <div class="eyebrow"><i></i> FIELD NOTES</div>
+    <h1>Ideas for building AI that <em>works.</em></h1>
+    <p class="lead">Practical notes on choosing a problem, evaluating a system, and taking a prototype into the world.</p>
+  </section>
+  <section class="wrap page-content">
+    <div class="article-list">
+      <article class="article" id="start-with-a-problem">
+        <div class="article-meta"><small>BUILDING</small><small>5 MIN READ</small></div>
+        <h2>Start with the problem, not the model<span>.</span></h2>
+        <p>It is tempting to begin with the newest model or framework. A better first step is to describe the task in plain language: who needs help, what information is available, and what a useful result looks like.</p>
+        <p>That brief gives you a way to make engineering choices. It can reveal whether a simple retrieval workflow is enough, where a person should review the result, and how you will know whether the system helped. Choose the model and tools after those needs are clear.</p>
+      </article>
+      <article class="article" id="evaluate-beyond-a-demo">
+        <div class="article-meta"><small>EVALUATION</small><small>4 MIN READ</small></div>
+        <h2>A convincing demo is not an evaluation<span>.</span></h2>
+        <p>A demo shows that a system can work once. An evaluation helps you understand how it behaves across the cases that matter. Write down representative inputs, expected outcomes, and the kinds of mistakes that would be costly.</p>
+        <p>Run the same cases after each meaningful change and record what improved or regressed. Even a small, carefully chosen set of examples gives a team a more reliable basis for decisions than a handful of impressive outputs.</p>
+      </article>
+      <article class="article" id="design-for-failure">
+        <div class="article-meta"><small>ENGINEERING</small><small>6 MIN READ</small></div>
+        <h2>Design the fallback before you need it<span>.</span></h2>
+        <p>AI components can be uncertain, slow, or unavailable. Decide early what the product should do when an answer is incomplete, a tool call fails, or a request takes too long. A clear fallback is part of the user experience, not an afterthought.</p>
+        <p>Keep important steps observable, make uncertainty visible where it matters, and provide a safe route to retry or ask for help. These small design choices make the system easier to trust and easier to maintain.</p>
+      </article>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap bar"><strong>Vector Academy</strong><small>Independent portfolio concept</small><nav aria-label="Footer navigation"><a href="about.html">About</a><a href="services.html">Services</a><a href="blog.html">Blog</a></nav><a href="#top">Back to top &uarr;</a></div></footer>
+</body>
+</html>

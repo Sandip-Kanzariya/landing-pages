@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Step inside Set Club, a fictional neighborhood training gym. Explore small-group sessions, the weekly timetable, and a guide to your first visit.">
+  <title>Set Club / Neighborhood Training</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="style.css">
+  <script defer src="gallery.js"></script>
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+  <a class="brand" href="#top" aria-label="Set Club home"><i aria-hidden="true"></i>SET CLUB</a>
+  <nav aria-label="Main"><a href="#training">The training</a><a href="#schedule">Timetable</a><a class="visit-link" href="#visit">First visit &searr;</a></nav>
+</header>
+<nav class="club-nav" aria-label="Explore the club"><a href="about.html">About</a><a href="membership.html">Membership</a><a href="coaches.html">Coaches</a><a href="gallery.html">Photo gallery</a><a href="testimonials.html">Testimonials</a><a href="contact.html">Contact &amp; first visit</a></nav>
+<main id="main">
+  <section class="hero" aria-labelledby="headline">
+    <div class="hero-copy">
+      <p class="label"><b class="light"></b> Neighborhood training &nbsp;/&nbsp; Portland, OR</p>
+      <h1 id="headline">One floor.<br><em>Every level.</em></h1>
+      <p class="intro">Small-group strength and conditioning. A coach to learn from. People who notice when you show up.</p>
+      <a class="button" href="#schedule">Find a session <span aria-hidden="true">&searr;</span></a>
+    </div>
+    <figure class="cover">
+      <img src="images/floor.jpg" width="1600" height="1063" alt="Two athletes moving battle ropes side by side on a gym floor" fetchpriority="high">
+      <figcaption aria-live="polite"><span>Floor notes / 01</span> Partner rope intervals</figcaption>
+    </figure>
+    <div class="gallery-controls" hidden><button type="button" aria-label="Previous training photo">&larr;</button><button type="button" aria-label="Next training photo">&rarr;</button></div>
+  </section>
+  <div class="strip"><span>Coach-led sessions</span><span>Up to 8 per group</span><span>Beginners welcome</span></div>
+  <section class="block" id="training">
+    <p class="label">01 &nbsp;/&nbsp; The training</p>
+    <div class="heading"><h2>Three ways in.</h2><p>Pick a focus for the day. Every class starts with a walkthrough, so nobody has to guess what comes next.</p></div>
+    <div class="formats">
+      <article><img src="images/lift.jpg" loading="lazy" width="900" height="600" alt="An athlete lowering into a push-up on the gym floor"><div><small>A / 50 min</small><h3>Strength lab</h3><p>Learn a lift, practice in pairs, and take your time between sets. Bodyweight options are part of the plan.</p></div></article>
+      <article><img src="images/floor.jpg" loading="lazy" width="1600" height="1063" alt="Battle ropes sweeping across the floor during a partner session"><div><small>B / 40 min</small><h3>Engine room</h3><p>Short rounds on ropes, bikes, and rowers. Work at your own pace; the whole group rests together.</p></div></article>
+      <article><img src="images/session.jpg" loading="lazy" width="1000" height="667" alt="An athlete practicing a cross-body core exercise on a mat"><div><small>C / 30 min</small><h3>Groundwork</h3><p>Trade the clock for a mat. Slow core work and mobility drills give you room to focus on control.</p></div></article>
+    </div>
+  </section>
+  <section class="block board" id="schedule">
+    <p class="label">02 &nbsp;/&nbsp; The timetable</p>
+    <div class="heading"><h2>On the floor.</h2><p>A sample training week.<br>All start times are local to Portland.</p></div>
+    <table><caption class="sr">Weekly group classes and start times</caption><thead><tr><th scope="col">Days</th><th scope="col">Session</th><th scope="col">Start times</th></tr></thead><tbody>
+      <tr><th scope="row">Mon / Wed / Fri</th><td>Strength lab</td><td>7:00 am <span>&amp;</span> 5:30 pm</td></tr>
+      <tr><th scope="row">Tue / Thu</th><td>Engine room</td><td>7:00 am <span>&amp;</span> 6:00 pm</td></tr>
+      <tr><th scope="row">Saturday</th><td>Groundwork</td><td>9:30 am</td></tr>
+    </tbody></table><p class="board-note">Sunday: the floor rests.</p>
+  </section>
+  <section class="block visit" id="visit">
+    <div><p class="label">03 &nbsp;/&nbsp; First visit</p><h2>New here?<br><em>Good.</em></h2></div>
+    <div><p class="welcome">You don&rsquo;t need to get fit before joining a gym. Your first session is for finding your footing.</p>
+      <details open><summary>Which class should I try?</summary><p>Start with Strength lab if you want to learn the basics of a lift, or choose Groundwork for a shorter mat-based session.</p></details>
+      <details><summary>What should I bring?</summary><p>Comfortable clothes, clean training shoes, and a water bottle. Mats and equipment are on the floor.</p></details>
+      <details><summary>What happens when I arrive?</summary><p>Come ten minutes early to meet the coach, see the space, and talk through your goals before the group warms up.</p></details>
+      <a class="button dark" href="#schedule">See the timetable <span aria-hidden="true">&uarr;</span></a>
+    </div>
+  </section>
+</main>
+<footer><a class="brand" href="#top"><i aria-hidden="true"></i>SET CLUB</a><p>Fictional gym &middot; Demo photography &middot; No live bookings</p><a href="../index.html">Portfolio &nearr;</a></footer>
+</body>
+</html>
